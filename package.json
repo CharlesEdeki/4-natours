@@ -1,0 +1,41 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "node, express and mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Charles Edeki",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "mongoose-update-if-current": "^1.4.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "slugify": "^1.4.5",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "ndb": "^1.1.5",
+    "prettier": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
